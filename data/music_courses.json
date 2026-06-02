@@ -1,0 +1,44 @@
+{"course": [
+    {
+        "id": 1,
+        "name": "Introduction to Music Theory",
+        "description": "Learn the basics of music theory, including scales, chords, and rhythm.",
+        "duration": "8 weeks",
+        "level": "Beginner"
+    },
+    {
+        "id": 2,
+        "name": "Advanced Composition Techniques",
+        "description": "Explore advanced techniques in music composition and arrangement.",
+        "duration": "12 weeks",
+        "level": "Advanced"
+    },
+    {
+        "id": 3,
+        "name": "Music Production with Digital Audio Workstations",
+        "description": "Learn how to produce music using popular digital audio workstations (DAWs).",
+        "duration": "10 weeks",
+        "level": "Intermediate"
+    },
+    {
+        "id": 4,
+        "name": "History of Western Music",
+        "description": "Study the history and development of Western music from the Middle Ages to the present.",
+        "duration": "6 weeks",
+        "level": "Beginner"
+    },
+    {
+        "id": 5,
+        "name": "Jazz Improvisation",
+        "description": "Learn the art of jazz improvisation and develop your own unique style.",
+        "duration": "8 weeks",
+        "level": "Intermediate"
+    },
+    {
+        "id": 6,
+        "name": "Film Scoring",
+        "description": "Discover the techniques and processes involved in scoring music for film and television.",
+        "duration": "10 weeks",
+        "level": "Advanced"
+    }
+]}
