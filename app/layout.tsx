@@ -29,10 +29,10 @@ export default function RootLayout({
      className={`dark ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
 
-     <body className="min-h-screen bg-black text-white">
-        <Navbar />
-        {children}
-      </body>
+   <body className="relative min-h-screen bg-black text-white">
+  <Navbar />
+  {children}
+</body>
     </html>
   );
 }
