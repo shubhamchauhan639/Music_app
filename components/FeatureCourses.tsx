@@ -9,8 +9,10 @@ interface Course{
     slug: string,
     description: string,
     price: number,
-    instructor: string
-    isFeatured: boolean,}
+    instructor: string,
+    isFeatured: boolean,
+    image: string
+  }
 
 function FeatureCourses() {
   const featuredCourses = courseData.courses.filter((course:Course) => course.isFeatured)
@@ -31,6 +33,7 @@ function FeatureCourses() {
                         <BackgroundGradient
                         className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
                             <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
+                              <img src={course.image} alt={course.title} className="w-full h-48 object-cover rounded-lg mb-4"/>  
                                 <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
                                 <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
                                 <Link href={`/courses/${course.slug}`}>
