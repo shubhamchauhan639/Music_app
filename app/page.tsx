@@ -1,7 +1,10 @@
 import FeatureCourses from "@/components/FeatureCourses";
+import Footer from "@/components/Fotter";
 import HeroSection from "@/components/HeroSection";
+import Instructors from "@/components/instuctures";
 import MovingCard from "@/components/MovingCard";
-// import { GridBackgroundDemo } from "@/components/ui/GridBackgroundDemo";
+import UpcomingWebinars from "@/components/UpcomingWebinar";
+
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Image from "next/image";
 
@@ -13,7 +16,10 @@ export default function Home() {
   <FeatureCourses/>
   <WhyChooseUs/>
   <MovingCard/>
-  {/* <GridBackgroundDemo/> */}
+  <UpcomingWebinars/>
+  <Instructors/>  
+  <Footer/>
+
 
 </div>
 
