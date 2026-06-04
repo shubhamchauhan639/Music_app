@@ -1,5 +1,8 @@
 import FeatureCourses from "@/components/FeatureCourses";
 import HeroSection from "@/components/HeroSection";
+import MovingCard from "@/components/MovingCard";
+// import { GridBackgroundDemo } from "@/components/ui/GridBackgroundDemo";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,6 +11,9 @@ export default function Home() {
 
   <HeroSection/>
   <FeatureCourses/>
+  <WhyChooseUs/>
+  <MovingCard/>
+  {/* <GridBackgroundDemo/> */}
 
 </div>
 
